@@ -1,6 +1,6 @@
 
 ## Visão Geral do Projeto
-Este projeto demonstra a implementação de um pipeline completo de Integração Contínua (CI) e Entrega Contínua (CD) para uma aplicação simples em FastAPI. Utilizamos GitHub Actions para automatizar o build e a atualização do manifesto GitOps, e ArgoCD para implementar o princípio GitOps no deploy em um cluster Kubernetes local (Rancher Desktop).
+Este projeto demonstra a implementação de um pipeline completo de Integração Contínua (CI) e Entrega Contínua (CD) para uma aplicação simples em FastAPI. Foi utiliazado GitHub Actions para automatizar o build e a atualização do manifesto GitOps, e ArgoCD para implementar o princípio GitOps no deploy em um cluster Kubernetes local (Rancher Desktop).
 
 Requisitos e Tecnologias Utilizadas:
 
@@ -16,10 +16,10 @@ Orquestração: Kubernetes (Rancher Desktop)
 
 CD Controller: ArgoCD
 
-## 1. Repositórios e LinksRequisito
+## Repositórios e LinksRequisito
 
 
-LinkLink do repositório Git com a aplicação FastAPI + Dockerfile + GitHub Actions:
+Linkdo repositório Git com a aplicação FastAPI + Dockerfile + GitHub Actions:
 
 https://github.com/GuEstivalet/app-fastapi
 
@@ -27,7 +27,7 @@ Link do repositório com os manifests (deployment.yaml, service.yaml):
 
 https://github.com/GuEstivalet/manifests-fastapi
 
-## 2. Evidências do Pipeline (CI/CD)
+## Evidências do Pipeline (CI/CD)
 
 Evidência de Build e Push da Imagem no Docker Hub
 
@@ -41,7 +41,7 @@ O GitHub Actions faz o commit da nova tag SHA da imagem diretamente no repositó
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/fc44f1dc-0ced-4c54-a142-0d515a49f85b" alt="Confirmação do sucesso: Último commit é a imagem" width="800"/> </p>
 
-## 3. Evidências do Deploy (ArgoCD e Kubernetes)
+## Evidências do Deploy (ArgoCD e Kubernetes)
 
 Captura de Tela do ArgoCD com a Aplicação Sincronizada
 
