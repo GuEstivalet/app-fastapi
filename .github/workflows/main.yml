@@ -47,7 +47,8 @@ jobs:
           tags: |
             guestivalet/app-fastapi:latest
             guestivalet/app-fastapi:${{ github.sha }}
-- name: Checkout manifests repository
+
+      - name: Checkout manifests repository
         uses: actions/checkout@v3
         with:
           repository: 'GuEstivalet/manifests-fastapi'
