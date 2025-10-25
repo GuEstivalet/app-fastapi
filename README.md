@@ -47,7 +47,8 @@ Captura de Tela do ArgoCD com a Aplicação Sincronizada
 
 Após a correção da sintaxe YAML, o ArgoCD conseguiu ler o manifesto GitOps e concluiu a sincronização, movendo a aplicação para o status Healthy.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/70db3065-c805-4e6b-a69b-1cc86cee4fe2" alt="Captura de tela do ArgoCD com a aplicação sincronizada" width="800"/> </p>
+<img width="718" height="513" alt="image" src="https://github.com/user-attachments/assets/f2db7316-1f19-4ba6-aa34-50060b490bb2" />
+
 
 Print do kubectl get pods com a Aplicação Rodando
 
