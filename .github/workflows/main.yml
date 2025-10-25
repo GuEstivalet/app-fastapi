@@ -1,4 +1,4 @@
-n:
+on:
 
   push:
 
@@ -45,7 +45,6 @@ jobs:
           push: true
 
           tags: |
-
             guestivalet/app-fastapi:latest
             guestivalet/app-fastapi:${{ github.sha }}
 - name: Checkout manifests repository
